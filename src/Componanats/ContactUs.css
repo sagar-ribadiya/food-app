@@ -1,0 +1,90 @@
+/* App.css */
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: hsla(124, 9%, 69%, 0.2);
+  margin-top: 100px;
+}
+
+.contact-header {
+  text-align: center;
+  background-color: #de9595;
+  color: white;
+  padding: 10px 0;
+  margin-top: 0%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-group {
+  margin-bottom: 20px;
+}
+
+.contact-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #f4f2f2;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: hsla(124, 9%, 69%, 0.01);
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #68a3e2;
+  background-color: hsla(124, 9%, 69%, 0.01);
+  outline: none;
+}
+
+.contact-textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d1390b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 20px;
+  }
+
+  .contact-header {
+      font-size: 20px;
+  }
+
+  .contact-input,
+  .contact-textarea {
+      font-size: 14px;
+  }
+
+  .contact-button {
+      font-size: 14px;
+  }
+}
